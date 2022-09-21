@@ -163,26 +163,25 @@ footer{
 }
 
 
-@media (max-width:1445px){
+@media (max-width:1650px){
+
     header{
         flex-direction: column;
         height: 100%;
         width: 100%;
     }
 
-
     .divConteiner{
 
-    grid-template-columns: repeat(1,1fr);
-    grid-template-areas: 
-    
-    "item1"
-    "item2"
-    
-    ;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas: 
+        
+        "item1"
+        "item2"
+        
+        ;
+    }
 
-    }    
-    
     .carousel{
         width: auto;
         height: auto;
@@ -193,11 +192,13 @@ footer{
     }
 }
 
-@media (max-widht:620px){
+@media (max-width:615px){
 
-   nav{
-    display: flex;
-    width: auto;
-    height: auto;
-   }
+    .listaNav{
+        flex-direction: column;
+    }
+
+
 }
+
+
