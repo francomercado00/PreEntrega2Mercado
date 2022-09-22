@@ -190,6 +190,10 @@ footer{
     .item2{
         align-items: center;
     }
+
+    .parrafoDietetica{
+        margin: 0 10px 0 10px;
+    }
 }
 
 @media (max-width:615px){
