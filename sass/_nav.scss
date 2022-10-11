@@ -1,0 +1,21 @@
+.listaNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+    width: auto;
+    height:auto;
+    .elementosListaNav{
+        display: flex;
+        margin: 0px 10px 0px 10px;
+        a{
+            font-weight: 600;
+            font-size: 20px;
+            width: auto;
+            height: auto;
+        }
+        a:hover{
+            color: white;
+        }
+    }
+}

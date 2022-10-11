@@ -1,0 +1,56 @@
+.ubiConteiner{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:
+    
+    "item3 item4"
+    "item3 item4"
+    "item7 item7"
+    "item5 item5"
+    "item6 item6"
+    
+    
+    
+    ;
+    .item3{
+        grid-area: item3;
+        margin: 50px;
+    }
+    .item4{
+        grid-area: item4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .item5{
+        grid-area: item5;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(193, 240, 39);
+        margin-top: 50px;
+        img{
+            padding: 80px;
+        }
+    }
+    .item6{
+        grid-area: item6;
+        display: flex;
+        justify-content: center;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 30px;
+        margin-top: 40px;
+        a{
+            text-decoration: none;
+            color: black;
+        }        
+    }
+    .item7{
+        grid-area: item7;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        font-size: 40px;
+    }
+}

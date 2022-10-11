@@ -1,0 +1,45 @@
+.recConteiner{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-areas: 
+    
+    "item11"
+    "item8"
+    "item9"
+    "item10"
+    
+    ;
+    .item8{
+        grid-area: item8;
+    }
+    .item9{
+        grid-area: item9;
+    }
+    
+    .item10{
+        grid-area: item10;
+    }
+    .item11{
+        grid-area: item11;
+    }
+    img{
+        width: 600px;
+        height: 400px;
+        margin: 40px;
+    }
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        margin-top: 40px;
+        font-size: 50px;
+        font-family: 'DM Sans', sans-serif;
+    }
+    p{
+        padding: 0 60px 0 60px;
+    }
+}

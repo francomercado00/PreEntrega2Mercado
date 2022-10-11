@@ -1,0 +1,23 @@
+header{
+    background-color: rgb(193, 240, 39);
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    height: 110px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    .logoTitulo{
+        display: flex;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .logo{
+            height: 46px;
+            width: 46px;
+            margin-right: 10px;
+        }
+    }
+}

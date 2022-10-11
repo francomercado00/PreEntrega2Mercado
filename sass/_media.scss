@@ -1,0 +1,127 @@
+header {
+    background-color: rgb(193, 240, 39);
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    height: 110px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    @media (max-width:1650px){
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.divConteiner {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    
+    "item1 item2" 
+    "item1 item2"
+    
+    ;
+
+    @media (max-width:1650px){
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas: 
+        
+        "item1"
+        "item2"
+        
+        ;
+    }
+}
+
+.carousel {
+    width: 1180px;
+    height: 600px;
+    box-shadow: 34px -10px 7px 2px rgba(0, 0, 0, 0.17);
+
+    @media (max-width:1650px){
+        width: auto;
+        height: auto;
+    }
+}
+
+.item2 {
+    grid-area: item2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+
+    @media (max-width:1650px){
+        align-items: center;
+    }
+}
+
+.parrafoDietetica {
+    font-family: "DM Sans", sans-serif;
+    font-size: 19px;
+
+    @media (max-width:1650px){
+        margin: 0 10px 0 10px;
+    }
+}
+
+.ubiConteiner{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:
+    
+    "item3 item4"
+    "item3 item4"
+    "item7 item7"
+    "item5 item5"
+    "item6 item6"
+    
+    
+    
+    ;
+
+    @media (max-width:1650px){
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas:
+        
+        "item3"
+        "item4"
+        "item7"
+        "item5"
+        "item6"
+        
+        
+        
+        ;
+    }
+}
+
+.item4{
+    grid-area: item4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (max-width:1650px){
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+
+.listaNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+    width: auto;
+    height:auto;
+
+    @media (max-width:615px){
+        flex-direction: column;
+    }
+}
