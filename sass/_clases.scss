@@ -1,11 +1,10 @@
 .parrafosProductos{
-    font-family: 'DM Sans', sans-serif;
+    font-family: $fuente;
     font-size: 20px;
     margin-top: 20px;
 }
 
 .carousel{
-    width: 1180px;
-    height: 600px;
+    @include size (1180px,600px);
     box-shadow: 34px -10px 7px 2px rgb(0 0 0 / 17%);
 }

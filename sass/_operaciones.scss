@@ -1,0 +1,8 @@
+$verde:  rgb(193, 240, 39);
+$fuente: 'DM Sans', sans-serif;
+
+@mixin size ($width,$height) {
+        width: $width;
+        height: $height;
+    
+}

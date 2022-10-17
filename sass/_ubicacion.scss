@@ -28,7 +28,7 @@
         margin-top: 150px;
         display: flex;
         justify-content: center;
-        background-color: rgb(193, 240, 39);
+        background-color: $verde;
         margin-top: 50px;
         img{
             padding: 80px;
@@ -38,7 +38,7 @@
         grid-area: item6;
         display: flex;
         justify-content: center;
-        font-family: 'DM Sans', sans-serif;
+        font-family: $fuente;
         font-size: 30px;
         margin-top: 40px;
         a{
